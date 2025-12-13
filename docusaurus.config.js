@@ -11,10 +11,10 @@ const config = {
   favicon: 'img/favicon.svg',
 
   // Set the production url of your site here
-  url: 'https://Anas2338.github.io',
+  url: 'https://humanoid-book.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/humanoid-book/',
+  // For Vercel deployment, use '/' for root
+  baseUrl: '/',
   trailingSlash: true,
 
   // GitHub pages deployment config.
