@@ -1,0 +1,8 @@
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <!-- Futuristic robot icon -->
+  <circle cx="8" cy="5" r="2.5" fill="none" stroke="#4cc9f0" stroke-width="1.2"/>
+  <path d="M6 7 L5 10 L7 12 L9 12 L11 10 L10 7" fill="none" stroke="#4cc9f0" stroke-width="1.2"/>
+  <circle cx="8" cy="4.5" r="0.5" fill="#f72585"/>
+  <path d="M10 8 L12 10" stroke="#4cc9f0" stroke-width="0.8" stroke-dasharray="0.5,0.5"/>
+  <path d="M6 8 L4 10" stroke="#4cc9f0" stroke-width="0.8" stroke-dasharray="0.5,0.5"/>
+</svg>

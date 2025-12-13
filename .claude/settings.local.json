@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p specs/006-capstone-humanoid)",
+      "Bash(mkdir -p history/prompts/006-capstone-humanoid)",
+      "Bash(git fetch --all --prune)",
+      "SlashCommand(/sp.tasks)",
+      "Bash(dir .specifyscriptspowershellcheck-prerequisites.ps1)",
+      "Bash(ls -la specs/*/plan.md)",
+      "Bash(grep -A 10 \"## Gates\" specs/*/plan.md)",
+      "Bash(pwsh -File .specify/scripts/powershell/check-prerequisites.ps1 -Json)",
+      "Bash(pwsh -File .specify/scripts/powershell/check-prerequisites.ps1 -Json -RequireTasks -IncludeTasks)",
+      "Bash(find specs/ -name \"requirements.md\" -exec echo \"=== {} ===\" ; -exec cat {} ;)",
+      "Bash(git rev-parse --git-dir)",
+      "Bash(mkdir -p docs/part-i-introduction-foundations docs/part-ii-robotic-nervous-system docs/part-iii-digital-twin docs/part-iv-ai-robot-brain docs/part-v-vla docs/part-vi-capstone docs/part-vii-appendices)",
+      "Bash(grep -r '\\[ \\]' specs/*/checklists/)",
+      "Bash(dir package.json)",
+      "Bash(npm install)",
+      "Bash(npm --version)",
+      "Bash(npm install --verbose)",
+      "Bash(npm start)",
+      "Bash(dir docs /s)",
+      "Bash(dir docspart-iv-ai-robot-brain)",
+      "Bash(dir \"docs\\part-iv-ai-robot-brain\"\")",
+      "Bash(npm i @docusaurus/core@latest @docusaurus/preset-classic@latest @docusaurus/module-type-aliases@latest @docusaurus/types@latest)",
+      "Bash(rm -rf node_modules package-lock.json)"
+    ]
+  }
+}
