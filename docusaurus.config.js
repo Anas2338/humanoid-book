@@ -11,13 +11,13 @@ const config = {
   favicon: 'img/favicon.svg',
 
   // Set the production url of your site here
-  url: 'https://Anas2338.github.io/humanoid-book',
+  url: 'https://Anas2338.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/humanoid-book/',
 
   // GitHub pages deployment config.
-  organizationName: 'your-username', // Usually your GitHub org/user name
+  organizationName: 'Anas2338', // Usually your GitHub org/user name
   projectName: 'humanoid-book', // Usually your repo name
   deploymentBranch: 'gh-pages',
 
