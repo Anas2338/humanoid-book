@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/favicon.svg',
 
   // Set the production url of your site here
-  url: 'https://humanoid-book-livid.vercel.app',
+  url: 'https://humanoid-book-livid.vercel.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For Vercel deployment, use '/' for root
   baseUrl: '/',
