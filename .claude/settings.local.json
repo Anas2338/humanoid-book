@@ -23,7 +23,8 @@
       "Bash(dir docspart-iv-ai-robot-brain)",
       "Bash(dir \"docs\\part-iv-ai-robot-brain\"\")",
       "Bash(npm i @docusaurus/core@latest @docusaurus/preset-classic@latest @docusaurus/module-type-aliases@latest @docusaurus/types@latest)",
-      "Bash(rm -rf node_modules package-lock.json)"
+      "Bash(rm -rf node_modules package-lock.json)",
+      "Bash(git add .)"
     ]
   }
 }
