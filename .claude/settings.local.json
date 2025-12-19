@@ -25,7 +25,14 @@
       "Bash(npm i @docusaurus/core@latest @docusaurus/preset-classic@latest @docusaurus/module-type-aliases@latest @docusaurus/types@latest)",
       "Bash(rm -rf node_modules package-lock.json)",
       "Bash(git add .)",
-      "Bash(git commit -m \"Remove missing social card image reference\")"
+      "Bash(git commit -m \"Remove missing social card image reference\")",
+      "Bash(dir \"E:\\giaic\\Agentic-AI\\humanoid-book\\specs\\001-rag-chatbot\\contracts\" /b)",
+      "Bash(dir \"E:\\giaic\\Agentic-AI\\humanoid-book\\specs\\001-rag-chatbot\"\" /b)",
+      "Bash(findstr contracts)",
+      "Bash(python main.py)",
+      "Bash(curl -X POST http://localhost:8000/api/chat/new -H \"Content-Type: application/json\" -d \"{}\")",
+      "Bash(curl:*)",
+      "Bash(timeout 15 curl http://localhost:8000/health)"
     ]
   }
 }

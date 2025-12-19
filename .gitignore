@@ -58,3 +58,57 @@ coverage/
 
 # Legacy build outputs
 public/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+.ENV/
+
+# Backend specific
+rag-chatbot-backend/__pycache__/
+rag-chatbot-backend/*.pyc
+rag-chatbot-backend/*.pyo
+rag-chatbot-backend/venv/
+rag-chatbot-backend/env/
+
+# Frontend specific
+rag-chatbot-frontend/node_modules/
+rag-chatbot-frontend/dist/
+rag-chatbot-frontend/build/
+rag-chatbot-frontend/.next/
+rag-chatbot-frontend/nuxt/
+rag-chatbot-frontend/.nuxt/
+
+# Database
+*.db
+*.db-journal
+
+# Secrets
+secrets/
+*.key
+*.pem
+*.crt
+*.cert
